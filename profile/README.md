@@ -7,6 +7,9 @@
 A small product studio building real software with real users —  
 from Saigon, with caffeine.
 
+### 🌐 [**fived-studio.github.io**](https://fived-studio.github.io) — our home on the web
+
+[![Site](https://img.shields.io/badge/site-fived--studio.github.io-a78bfa?style=flat-square&logo=githubpages)](https://fived-studio.github.io)
 [![Org](https://img.shields.io/badge/GitHub-fived--studio-24292f?style=flat-square&logo=github)](https://github.com/fived-studio)
 [![Team](https://img.shields.io/badge/team-5%20engineers-2ea44f?style=flat-square)](#-the-team)
 [![Origin](https://img.shields.io/badge/origin-UIT%20VNU--HCM-red?style=flat-square)](https://www.uit.edu.vn/)
@@ -26,6 +29,8 @@ By day we're software & product engineers at **enterprise SaaS companies and tec
 This GitHub org is where those products live: real codebases, real users, real lessons. No homework, no abandoned demos.
 
 > **Why a studio?** Because the best products come from a small group that ships together over years — not solo side projects, not 100‑person factories.
+
+**👉 Visit [fived-studio.github.io](https://fived-studio.github.io) for the full story** — products, principles, member pages, and (soon) live engineering activity.
 
 ---
 
@@ -50,6 +55,10 @@ This GitHub org is where those products live: real codebases, real users, real l
 
 > See everything we're up to on the [organization page →](https://github.com/orgs/fived-studio/repositories)
 
+### 🛰️ Coming soon — *FiveD Pulse*
+
+Live engineering activity from every team member, aggregated across the FiveD org and their personal repos. Every push, PR, review, and release on a single public timeline at [fived-studio.github.io/live](https://fived-studio.github.io/live). Plus quarterly AI-narrated [Wrapped](https://fived-studio.github.io/wrapped/) reports.
+
 ---
 
 ## 🧰 Stack we reach for
@@ -68,15 +77,15 @@ We pick the right tool for the job — the table above is what we keep reaching 
 
 ## 👥 The team
 
-Now scattered across enterprise SaaS, product companies, and platform teams — still shipping together here.
+Now scattered across enterprise SaaS, product companies, and platform teams — still shipping together here. Each member has a profile page on our site.
 
-| # | Name | Role | GitHub | Contact |
-| :-: | :-- | :-- | :-- | :-- |
-| 1 | Huỳnh Gia Bảo       | Fullstack Engineer                      | [![hgbaooo](https://img.shields.io/badge/hgbaooo-24292f?style=flat-square&logo=github)](https://github.com/hgbaooo)             | 22520103@gm.uit.edu.vn |
-| 2 | Nguyễn Quốc Thắng   | Frontend Engineer · UI/UX               | [![nquynqthanq](https://img.shields.io/badge/nquynqthanq-24292f?style=flat-square&logo=github)](https://github.com/nquynqthanq) | 22521337@gm.uit.edu.vn |
-| 3 | Nguyễn Thành Tài    | Frontend Engineer · UI/UX               | [![thvnhtai](https://img.shields.io/badge/thvnhtai-24292f?style=flat-square&logo=github)](https://github.com/thvnhtai)           | 22521282@gm.uit.edu.vn |
-| 4 | Trương Lê Vĩnh Phúc | Product Engineer · DevOps · Fullstack   | [![sloweyyy](https://img.shields.io/badge/sloweyyy-24292f?style=flat-square&logo=github)](https://github.com/sloweyyy)           | 22521145@gm.uit.edu.vn |
-| 5 | Trần Tuệ Tánh       | Fullstack Engineer                      | [![TrTueTah](https://img.shields.io/badge/TrTueTah-24292f?style=flat-square&logo=github)](https://github.com/TrTueTah)           | 22521314@gm.uit.edu.vn |
+| # | Name | Role | GitHub | Profile | Contact |
+| :-: | :-- | :-- | :-- | :-- | :-- |
+| 1 | Huỳnh Gia Bảo       | Fullstack Engineer                      | [![hgbaooo](https://img.shields.io/badge/hgbaooo-24292f?style=flat-square&logo=github)](https://github.com/hgbaooo)             | [/m/hgbaooo →](https://fived-studio.github.io/m/hgbaooo)         | 22520103@gm.uit.edu.vn |
+| 2 | Nguyễn Quốc Thắng   | Frontend Engineer · UI/UX               | [![nquynqthanq](https://img.shields.io/badge/nquynqthanq-24292f?style=flat-square&logo=github)](https://github.com/nquynqthanq) | [/m/nquynqthanq →](https://fived-studio.github.io/m/nquynqthanq) | 22521337@gm.uit.edu.vn |
+| 3 | Nguyễn Thành Tài    | Frontend Engineer · UI/UX               | [![thvnhtai](https://img.shields.io/badge/thvnhtai-24292f?style=flat-square&logo=github)](https://github.com/thvnhtai)           | [/m/thvnhtai →](https://fived-studio.github.io/m/thvnhtai)       | 22521282@gm.uit.edu.vn |
+| 4 | Trương Lê Vĩnh Phúc | Product Engineer · DevOps · Fullstack   | [![sloweyyy](https://img.shields.io/badge/sloweyyy-24292f?style=flat-square&logo=github)](https://github.com/sloweyyy)           | [/m/sloweyyy →](https://fived-studio.github.io/m/sloweyyy)       | 22521145@gm.uit.edu.vn |
+| 5 | Trần Tuệ Tánh       | Fullstack Engineer                      | [![TrTueTah](https://img.shields.io/badge/TrTueTah-24292f?style=flat-square&logo=github)](https://github.com/TrTueTah)           | [/m/TrTueTah →](https://fived-studio.github.io/m/TrTueTah)       | 22521314@gm.uit.edu.vn |
 
 ---
 
