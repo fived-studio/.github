@@ -1,0 +1,7 @@
+{
+  "name": "Build & Publish Docker Image (FiveD Studio)",
+  "description": "Multi‑arch Docker build, pushed to GHCR with semver + sha tags and BuildKit caching.",
+  "iconName": "docker",
+  "categories": ["Docker", "Deployment"],
+  "filePatterns": ["Dockerfile$"]
+}

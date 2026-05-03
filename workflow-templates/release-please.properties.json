@@ -1,0 +1,7 @@
+{
+  "name": "Release Please (FiveD Studio)",
+  "description": "Automated release PRs + changelog from Conventional Commits. Tweak release-type per project.",
+  "iconName": "tag",
+  "categories": ["Automation", "Release"],
+  "filePatterns": ["package.json$", "pom.xml$", "pyproject.toml$"]
+}

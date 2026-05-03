@@ -1,0 +1,66 @@
+name: 💡 Feature Request
+description: Suggest a new capability, improvement, or product idea.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Great features start from a clear **user problem**. Please tell us about the problem first — the solution second.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Who is affected, when does this happen, and why does it matter?
+      placeholder: |
+        As a {user}, when I {situation}, I want to {goal}, so that {outcome}.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: How are you working around it today?
+      description: Tell us about the friction, the duct‑tape, or "we just don't do this".
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution (optional)
+      description: If you have a design in mind, share it. We're equally happy to figure it out together.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How impactful is this for you?
+      options:
+        - 🚀 Blocker — can't ship without it
+        - 🔥 High — would meaningfully improve our workflow
+        - 🌱 Medium — nice to have, would use it
+        - 💭 Low — just an idea
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Which product / repo is this for?
+      placeholder: e.g. Enigma‑Frontend, RMS‑BE, all of them, none yet
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/fived-studio/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+        - label: I have searched existing issues and discussions for similar requests
+          required: true

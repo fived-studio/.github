@@ -1,0 +1,7 @@
+{
+  "name": "Java CI (FiveD Studio)",
+  "description": "Build & test a Maven Java project on JDK 17 & 21 with Temurin.",
+  "iconName": "java",
+  "categories": ["Java", "Maven"],
+  "filePatterns": ["pom.xml$"]
+}

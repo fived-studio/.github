@@ -1,0 +1,94 @@
+name: 🐛 Bug Report
+description: Something is broken or behaving unexpectedly in production or development.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. A clear, focused report helps us ship a fix faster.
+        Before filing, please **search existing issues** to avoid duplicates.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: One sentence describing the bug.
+      placeholder: e.g. Checkout button does nothing on iOS Safari 17
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Minimal, numbered steps. A repro repo or short video helps a lot.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include logs, stack traces, or screenshots if relevant.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      placeholder: e.g. v1.4.2 or commit abc1234
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity (your judgement)
+      options:
+        - 🔥 Critical — production down or data loss
+        - 🟠 High — major feature broken, no workaround
+        - 🟡 Medium — feature degraded, workaround exists
+        - 🟢 Low — minor / cosmetic
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser/runtime, Node/Java/Python version, etc.
+      placeholder: |
+        - OS: macOS 14.5
+        - Browser: Chrome 124
+        - Node: 20.11.0
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Related issues, hypotheses, recent changes, etc.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/fived-studio/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+        - label: I have searched existing issues and confirmed this is not a duplicate
+          required: true

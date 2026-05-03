@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & Discussions
+    url: https://github.com/orgs/fived-studio/discussions
+    about: Ask questions, share ideas, or chat with the team and community.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/fived-studio/.github/security/policy
+    about: Please do not open a public issue. Use private vulnerability reporting.
+  - name: 🤝 Partnership / business
+    url: mailto:hello@fived.studio
+    about: For partnership, hiring, or commercial enquiries.

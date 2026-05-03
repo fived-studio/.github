@@ -1,0 +1,7 @@
+{
+  "name": "Node CI (FiveD Studio)",
+  "description": "Lint, typecheck, test, and build a Node.js project on Node 20 & 22.",
+  "iconName": "nodejs",
+  "categories": ["JavaScript", "TypeScript", "Node"],
+  "filePatterns": ["package.json$"]
+}
