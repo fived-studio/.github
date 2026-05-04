@@ -25,7 +25,7 @@ $ git log --author="@fived-studio" --since="30 days"
 # 5 engineers · 4 products · 0 days off · live at fived-studio.github.io
 
 $ curl -s https://api.fived.studio/v1/totals?days=30
-# soon — live engineering pulse via Server-Sent Events
+# live engineering pulse — every push, PR, review across the studio
 ```
 
 ---
@@ -40,7 +40,7 @@ This GitHub org is where those products live: real codebases, real users, real l
 
 > **Why a studio?** Because the best products come from a small group that ships together over years — not solo side projects, not 100-person factories.
 
-**→ Visit [fived-studio.github.io](https://fived-studio.github.io)** for the full story — products, principles, member pages, and (soon) live engineering activity.
+**→ Visit [fived-studio.github.io](https://fived-studio.github.io)** for the full story — products, principles, member pages, and live engineering activity.
 
 ---
 
@@ -67,14 +67,18 @@ This GitHub org is where those products live: real codebases, real users, real l
 
 > See everything we're up to on the [organization page →](https://github.com/orgs/fived-studio/repositories)
 
-### 🛰️ Coming soon — *FiveD Pulse*
+### 🛰️ FiveD Pulse — *now live*
 
-Live engineering activity from every team member, aggregated across the FiveD org and their personal repos. Every push, PR, review, and release on a single public timeline at [fived-studio.github.io/live](https://fived-studio.github.io/live). Plus quarterly AI-narrated [Wrapped](https://fived-studio.github.io/wrapped/) reports.
+Real-time engineering activity from every team member, aggregated across the
+FiveD org and their personal repos. Every push, PR, review, and release on a
+single public timeline at **[fived-studio.github.io/live →](https://fived-studio.github.io/live)**.
+
+Backend is open source at [fived-studio/pulse](https://github.com/fived-studio/pulse) —
+Bun + Hono + Postgres + Redis on Cloud Run, fan-out via Server-Sent Events.
 
 ```bash
 $ curl -N https://api.fived.studio/v1/stream/events
-# SSE stream — every git event from the studio, live
-# status: building. ETA: M1 (week 3–4 of the Pulse roadmap)
+# SSE stream — every git event from the studio, in flight
 ```
 
 ---
