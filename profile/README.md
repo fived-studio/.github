@@ -64,6 +64,7 @@ This GitHub org is where those products live: real codebases, real users, real l
 | 🧠 **Enigma** | AI-assisted dropshipping platform — list products, capture margin, no inventory. | [Enigma-Frontend](https://github.com/fived-studio/Enigma-Frontend) |
 | ⚙️ **Enigma (Java)** | Java/Spring services powering Enigma's backend. | [Enigma-Java](https://github.com/fived-studio/Enigma-Java) |
 | 🏝️ **Resort Management System** | Operations platform for resorts — guests, rooms, billing, admin. | [RMS-BE](https://github.com/fived-studio/ResortManagementSystem-BE) |
+| 📊 **Repo Ranker** | Dashboard ranking our GitHub repos by 14-day traffic, clones, stars, and recent activity. | [repo-ranker](https://github.com/fived-studio/repo-ranker) |
 
 > See everything we're up to on the [organization page →](https://github.com/orgs/fived-studio/repositories)
 
